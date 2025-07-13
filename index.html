@@ -2,16 +2,17 @@
 <html>
 <head>
   <title>Redirecting...</title>
-  <script>
-    function openLinks() {
-      window.open('https://mega.nz/folder/6pAQADzI#Csx8A14a_UiqtPDwiEQn4w', '_blank');
-      window.location.href = 'https://collshp.com/mumtazacatalog';
-    }
-    window.onload = openLinks;
-  </script>
 </head>
 <body>
-  <p>Redirecting... please wait.</p>
+  <h3>Redirecting to Shopee Catalog... Please wait.</h3>
+  <p>If Mega folder doesn't open automatically, click the button below:</p>
+  <button onclick="window.open('https://mega.nz/folder/6pAQADzI#Csx8A14a_UiqtPDwiEQn4w', '_blank')">Open Mega Folder</button>
+
+  <script>
+    // Redirect to Shopee after 3 seconds
+    setTimeout(() => {
+      window.location.href = 'https://collshp.com/mumtazacatalog';
+    }, 3000);
+  </script>
 </body>
 </html>
-<!-- trigger build -->
