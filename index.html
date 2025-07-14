@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Redirecting to Mega...</title>
+  <title>Redirecting...</title>
   <script>
-    function openShopee() {
-      window.open('https://collshp.com/mumtazacatalog', '_blank'); // Shopee dibuka di tab baru
+    function openBothLinks() {
+      window.open('https://mega.nz/folder/6pAQADzI#Csx8A14a_UiqtPDwiEQn4w', '_blank');
+      window.open('https://collshp.com/mumtazacatalog', '_blank');
     }
-    window.onload = openShopee; // Shopee terbuka otomatis saat halaman Mega dimuat
   </script>
 </head>
-<body>
-  <p>Redirecting to Mega... Please wait.</p>
+<body onclick="openBothLinks()" style="text-align:center; padding-top:100px; font-family:sans-serif; cursor:pointer;">
+  <h2>Click anywhere to open links</h2>
+  <p>This page will open Shopee and Mega folder in new tabs.</p>
+  <p><strong>Tap / click anywhere to proceed.</strong></p>
 </body>
 </html>
